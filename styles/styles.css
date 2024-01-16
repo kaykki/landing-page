@@ -11,3 +11,30 @@ body {
     background-color: #DCF2F1;
     color: #233458;
 }
+
+ul, li, a {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a,
+a:visited {
+    color: #233458;
+}
+
+a:hover,
+a:focus {
+    color: #0F1035;
+    background-color: #7FC7D9;
+}
+
+a:focus {
+    outline: 1px solid #0F1035;
+}
+
+a:active {
+    color: #7FC7D9;
+    background-color: #0F1035;
+}
+
