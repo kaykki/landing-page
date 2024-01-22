@@ -65,7 +65,7 @@ a:active {
     
 }
 
-.title-wrapper {
+.site-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,11 +73,11 @@ a:active {
     height: 80%;
 }
 
-.title-wrapper img {
+.site-title img {
     width: 7rem;
 }
 
-.site-title {
+.title-wrapper {
     display: flex;
     align-items: center;
 }
