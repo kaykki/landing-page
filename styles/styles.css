@@ -129,7 +129,13 @@ footer {
 
 }
 
-.media-links li {
+.media-links li a{
+    background-color: #004D57;
+    color: #F0F0F0;
     width: 50%;
     
+}
+
+.link-images {
+    width: 10px;
 }
