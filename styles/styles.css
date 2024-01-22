@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
 /* Color Pallete
     -#F0F0F0
     -#004D57
 */
 
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", Arial, sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -126,16 +124,8 @@ footer {
 .media-links {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .media-links li a{
-    background-color: #004D57;
-    color: #F0F0F0;
     width: 50%;
-    
-}
-
-.link-images {
-    width: 10px;
 }
