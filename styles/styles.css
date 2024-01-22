@@ -122,3 +122,14 @@ footer {
 .media-links li a:visited {
     color: #004D57;
 }
+
+.media-links {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.media-links li {
+    width: 50%;
+    
+}
