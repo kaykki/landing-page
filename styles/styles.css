@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Color Pallete
+    -
+*/
+
 body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -7,9 +11,10 @@ body {
     font-style: normal;
     margin: 0 auto;
     font-size: 1rem;
+    font-weight: 400;
     line-height: 1.5;
-    background-color: #DCF2F1;
-    color: #233458;
+    background-color: #F0F0F0;
+    color: #004D57;
 }
 
 ul, li, a {
