@@ -17,15 +17,21 @@ body {
     color: #004D57;
 }
 
+/* Elements */
 ul, li, a {
     padding: 0;
     text-decoration: none;
     list-style: none;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
+/* Links */
 a,
 a:visited {
-    color: #233458;
+    color: #F0F0F0;
 }
 
 a:hover,
@@ -43,3 +49,42 @@ a:active {
     background-color: #0F1035;
 }
 
+/* Header */
+.site-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.title-wrapper img {
+    width: 7rem;
+}
+
+.site-title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar {
+    background-color: #004D57;
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.nav-bar-links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 1rem;
+}
