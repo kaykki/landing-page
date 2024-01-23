@@ -23,7 +23,7 @@ ul, li, a {
 }
 
 h1 {
-    font-size: 1.95rem;
+    font-size: 1.9rem;
     position: relative;
     right: 1rem;
 }
@@ -48,12 +48,12 @@ a:visited {
 
 a:hover,
 a:focus {
-    color: #0F1035;
-    background-color: #7FC7D9;
+    color: #004D57;
+    background-color: #F0F0F0;
 }
 
 a:focus {
-    outline: 1px solid #0F1035;
+    outline: 1px solid #25575B;
 }
 
 a:active {
@@ -91,8 +91,9 @@ a:active {
 }
 
 .nav-bar {
+    display: flex;
+    justify-content: center;
     background-color: #004D57;
-    width: 90%;
     position: fixed;
     bottom: 0;
     margin-bottom: 1rem;
@@ -103,7 +104,14 @@ a:active {
 .nav-bar-links {
     display: flex;
     justify-content: space-evenly;
+}
+
+.nav-bar-links a {
     padding: 0 1rem;
+}
+
+.nav-bar-links :not(:last-child) {
+    border-right: 2px solid #F0F0F0;
 }
 
 .scroll-down,
