@@ -170,19 +170,6 @@ footer {
 
 @media (min-width: 50em) {
     
-    /* body {
-        display: flex;
-    }
-
-    .site-header {
-        flex: 1;
-    }
-
-    .site-main,
-    .site-footer {
-        flex: 1;
-    } */
-
     #left {
         position: fixed;
         left: 0;
