@@ -38,7 +38,7 @@ main {
     max-width: 90%;
 }
 
-section:nth-child(n+1) {
+section {
     border-top: #004D57 solid 0.2rem;
 }
 
@@ -79,6 +79,7 @@ a:active {
     align-items: center;
     height: 90%;
     width: 100%;
+    border-top: none;
 }
 
 .site-title img {
