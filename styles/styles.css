@@ -23,7 +23,9 @@ ul, li, a {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.95rem;
+    position: relative;
+    right: 1rem;
 }
 
 h2 {
@@ -36,7 +38,6 @@ footer {
     margin: 0 auto;
     max-width: 90%;
     border-bottom: #004D57 solid 0.2rem;
-    height: 100vh;
 }
 
 /* Links */
@@ -66,7 +67,7 @@ a:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    height: 100vh;
 }
 
 .site-title {
@@ -74,7 +75,8 @@ a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: 90%;
+    width: 100%;
 }
 
 .site-title img {
@@ -84,6 +86,8 @@ a:active {
 .title-wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .nav-bar {
@@ -93,6 +97,7 @@ a:active {
     bottom: 0;
     margin-bottom: 1rem;
     border-radius: 1rem;
+    z-index: 99;
 }
 
 .nav-bar-links {
@@ -106,17 +111,30 @@ a:active {
     color: #004D57;
 }
 
-
 /* Main */
-
-#site-main {
-    height: 100vh;
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
+.project-tile {
+    display: flex;
+    background-color: #25575B;
+    justify-content: center;
+    align-items: center;
+    border: #004D57 solid 3px;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.floating-text {
+    position: absolute;
+    color: #F0F0F0;
+}
 
 /* Footer */
 footer {
-    height: auto;
     margin-bottom: 5rem;
 }
 
