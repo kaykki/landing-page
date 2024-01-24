@@ -206,7 +206,7 @@ footer {
         width: 60%;
     }
 
-    .project-tile img {
-        height: auto;
+    .project-image {
+        width: 40%;
     }
 }
