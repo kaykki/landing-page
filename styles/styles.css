@@ -211,12 +211,7 @@ a:active {
 
     .project-description {
         align-self: self-start;
-        width: 100%;
         padding: 1rem;
-    }
-
-    .project-image {
-        width: 40%;
     }
 
     .stack {
