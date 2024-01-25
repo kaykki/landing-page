@@ -23,7 +23,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
     <div id="left">
         <header id="header" class="site-header">
             <section class="site-title">
@@ -36,23 +36,23 @@
             <nav class="nav-bar">
                 <ul class="nav-bar-links">
                     <li class="icons">
-                        <a href="#right">
-                            <img src="icons/back-to-top-button.svg" alt="">
+                        <a href="#body">
+                            <img src="icons/back-to-top-button.svg" alt="an arrow icon">
                         </a>
                     </li>
                     <li class="icons">
                         <a href="#about-me">
-                            <img src="icons/about-me-icon.svg" alt="">
+                            <img src="icons/about-me-icon.svg" alt="a person icon">
                         </a>
                     </li>
                     <li class="icons">
                         <a href="#projects">
-                            <img src="icons/projects-icon.svg" alt="">
+                            <img src="icons/projects-icon.svg" alt="a folder icon">
                         </a>
                     </li>
                     <li class="icons">
                         <a href=#links>
-                            <img src="icons/links-icon.svg" alt="">
+                            <img src="icons/links-icon.svg" alt="a link icon">
                         </a>
                     </li>
                 </ul>
@@ -67,68 +67,93 @@
             </section>
     
             <section id="projects" class="projects-section">
+                
                 <h2>Finished Projects</h2>
-                <div class="project-tile">
-                    <div class="project-image">
-                        <img src="images/favicon-kaki.svg" alt="website image placeholder">
+                <div class="project-wrapper">
+                    <div class="project-tile">
+                        <div class="project-image">
+                            <img src="images/favicon-kaki.svg" alt="website image placeholder">
+                        </div>
+                        <div class="project-description">
+                            <h3>Landing Page:</h3>
+                            <p>
+                                The first "big" project of FWDP1000. You're probably viewing this in the landing page itself. 
+                            </p>
+    
+                            <h3>Learning Outcomes:</h3>
+                            <p>
+                                While working on this project I learned how to obtain a domain, and to host a functional website.
+                            </p>
+                        </div>
+                        <ul>
+                            <li class="icons">
+                                <a href="http://kayki.ca">
+                                    <img src="icons/site-icon.svg" alt="a site icon">
+                                </a>
+                            </li>
+                            <li class="icons">
+                                <a href="https://github.com/kaykki/landing-page">
+                                    <img src="icons/github-mark.svg" alt="a github icon">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="project-description">
-                        <h3>Landing Page:</h3>
-                        <p>
-                            The first "big" project of FWDP1000. You're probably viewing this in the landing page itself. 
-                        </p>
-
-                        <h3>Learning Outcomes:</h3>
-                        <p>
-                            While working on this project I learned how to obtain a domain, and to host a functional website.
-                        </p>
-                        <a href="http://kayki.ca">link to site</a>
+                    
+                    <div class="project-tile ">
+                        <div class="project-image">
+                            <img src="images/dice.svg" alt="an of a dice">
+                        </div>
+                        <div class="project-description">
+                            <h3>Dice Game</h3>
+                            <p>
+                                A Javascript game I created in my part-time BCIT course COMP-2132 for the final project. I didn't create this with mobile view in mind, so I highly recommend not viewing the site on mobile.
+                            </p>
+    
+                            <h3>Learning Outcome:</h3>
+                            <p>
+                                I learned how to use Javascript to manipulate the DOM. Also learned a bit of SASS.
+                            </p>
+                        </div>
+                        <ul>
+                            <li class="icons">
+                                <a href="http://kayki.ca/dice-game">
+                                    <img src="icons/site-icon.svg" alt="a site icon">
+                                </a>
+                            </li>
+                            <li class="icons">
+                                <a href="https://github.com/kaykki/COMP-2132-Final-Project">
+                                    <img src="icons/github-mark.svg" alt="a github icon">
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 
-                <div class="project-tile ">
-                    <div class="project-image">
-                        <img src="images/dice.svg" alt="an of a dice">
-                    </div>
-                    <div class="project-description">
-                        <h3>Dice Game</h3>
-                        <p>
-                            A Javascript game I created in my part-time BCIT course COMP-2132 for the final project. I didn't create this with mobile view in mind, so I highly recommend not viewing the site on mobile.
-                        </p>
-
-                        <h3>Learning Outcome:</h3>
-                        <p>
-                            I learned how to use Javascript to manipulate the DOM. Also learned a bit of SASS.
-                        </p>
-
-                        <a href="http://kayki.ca/dice-game">link to site</a>
-                        <a href="https://github.com/kaykki/COMP-2132-Final-Project">Github Repo</a>
-                    </div>
-                </div>
-
                 <h2>Upcoming Projects</h2>
-                <div class="project-tile ">
-                    <div class="project-image">
-                        <img src="mstile-144x144.png" alt="filler image">
+                <div class="project-wrapper">
+                    <div class="project-tile ">
+                        <div class="project-image">
+                            <img src="images/favicon-kaki.svg" alt="filler image">
+                        </div>
+                        <div class="project-description">
+                            <h3>Country Website</h3>
+                        </div>
                     </div>
-                    <div class="project-description">
-                        <h3>Country Website</h3>
+                    <div class="project-tile ">
+                        <div class="project-image">
+                            <img src="images/favicon-kaki.svg" alt="filler image">
+                        </div>
+                        <div class="project-description">
+                            <h3>Movie Website</h3>
+                        </div>
                     </div>
-                </div>
-                <div class="project-tile ">
-                    <div class="project-image">
-                        <img src="mstile-144x144.png" alt="filler image">
-                    </div>
-                    <div class="project-description">
-                        <h3>Movie Website</h3>
-                    </div>
-                </div>
-                <div class="project-tile ">
-                    <div class="project-image">
-                        <img src="mstile-144x144.png" alt="filler image">
-                    </div>
-                    <div class="project-description">
-                        <h3>Javascript Game</h3>
+                    <div class="project-tile ">
+                        <div class="project-image">
+                            <img src="images/favicon-kaki.svg" alt="filler image">
+                        </div>
+                        <div class="project-description">
+                            <h3>Javascript Game</h3>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -160,17 +185,17 @@
                 <ul class="media-links">
                     <li class="icons">
                         <a href="https://www.linkedin.com/in/kaki-kagatan-a2ab5a18a/">
-                            <img src="icons/linkedin.svg" alt="">
+                            <img src="icons/linkedin.svg" alt="linkedin icon">
                         </a>
                     </li>
                     <li class="icons">
                         <a href="https://github.com/kaykki">
-                            <img src="icons/github-mark.svg" alt="">
+                            <img src="icons/github-mark.svg" alt="github icon">
                         </a>
                     </li>
                     <li class="icons">
                         <a href="mailto:kakikagatan@outlook.com">
-                            <img src="icons/mail-icon.svg" alt="">
+                            <img src="icons/mail-icon.svg" alt="email icon">
                         </a>
                     </li>
                 </ul>

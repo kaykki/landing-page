@@ -9,7 +9,7 @@ body {
     font-weight: 400;
     font-style: normal;
     margin: 0 auto;
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
     font-size: 1rem;
     line-height: 1.5;
     background-color: #F0F0F0;
@@ -127,23 +127,25 @@ a:active {
     padding-bottom: 1rem;
 }
 
+.project-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .project-tile {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 1rem;
     border-radius: 1rem;
-    width: 100%;
+    width: 18rem;
     border: 0.2rem solid #004D57;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
-.project-tile img {
-    height: 19rem;
-}
-
-.project-tile image {
+.project-image img{
     height: 19rem;
 }
 
@@ -151,6 +153,10 @@ a:active {
 .project-description a:visited {
     padding: 0.5rem;
     border-radius: 0.5rem;
+}
+
+.project-tile .icons {
+    display: inline-block;
 }
 
 /* Footer & Links */
@@ -198,8 +204,8 @@ a:active {
     }
 
     .project-tile {
-        flex-direction: row;
         align-items: center;
+        width: 20rem;
     }
 
     .project-description {
