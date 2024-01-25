@@ -39,10 +39,6 @@ main {
     max-width: 90%;
 }
 
-section {
-    border-top: #004D57 solid 0.2rem;
-}
-
 /* Links */
 a,
 a:visited {
