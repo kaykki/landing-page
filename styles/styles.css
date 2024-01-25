@@ -126,8 +126,8 @@ a:active {
 .project-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-evenly;
+    gap: 2rem;
 }
 
 .project-tile {
@@ -153,6 +153,13 @@ a:active {
 
 .project-tile .icons {
     display: inline-block;
+}
+
+/* Stack */
+
+.stack {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Footer & Links */
@@ -201,7 +208,7 @@ a:active {
 
     .project-tile {
         align-items: center;
-        width: 20rem;
+        width: 30rem;
     }
 
     .project-description {
