@@ -60,6 +60,26 @@ a:active {
     outline: 0.2rem  solid #004D57;
 }
 
+/* Reusable Classes */
+
+.rounded-border {
+    border: 0.1rem solid #004D57;
+    border-radius: 1rem;
+}
+
+.icons {
+    width: 32px;
+}
+
+.media-links {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
 /* Header */
 .site-header {
     margin: 0 auto;
@@ -96,9 +116,7 @@ a:active {
     background-color: #F0F0F0;
     position: fixed;
     bottom: 0;
-    margin-bottom: 1rem;
-    border: 0.2rem solid #004D57;
-    border-radius: 1rem;
+    margin-bottom: 1rem;   
     z-index: 99;
     width: 19rem;
 }
@@ -111,9 +129,6 @@ a:active {
     width: 100%;
 }
 
-.icons {
-    width: 32px;
-}
 
 /* Main */
 .projects-section {
@@ -135,9 +150,7 @@ a:active {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    border-radius: 1rem;
     width: 18rem;
-    border: 0.2rem solid #004D57;
     padding: 0.5rem;
 }
 
@@ -170,15 +183,6 @@ a:active {
     width: 100%;
     display: flex;
     padding-top: 1rem;
-}
-
-.media-links {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem;
 }
 
 @media (min-width: 50em) {
