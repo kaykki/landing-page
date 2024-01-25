@@ -178,7 +178,7 @@ a:active {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1rem;
-    
+    padding: 1rem;
 }
 
 @media (min-width: 50em) {
@@ -206,7 +206,9 @@ a:active {
     }
 
     .project-description {
-        width: 60%;
+        align-self: self-start;
+        width: 100%;
+        padding: 1rem;
     }
 
     .project-image {
