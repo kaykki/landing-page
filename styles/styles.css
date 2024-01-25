@@ -9,6 +9,7 @@ body {
     font-weight: 400;
     font-style: normal;
     margin: 0 auto;
+    margin-bottom: 4rem;
     font-size: 1rem;
     line-height: 1.5;
     background-color: #F0F0F0;
@@ -45,19 +46,17 @@ section {
 /* Links */
 a,
 a:visited {
-    color: #F0F0F0;
-    background: #004D57;
+    color: #004D57;
 }
 
 a:hover,
 a:focus {
     color: #004D57;
-    background-color: #F0F0F0;
-    border: 0.2rem solid #004D57;
+    border-bottom: 0.2rem solid #004D57;
 }
 
 a:focus {
-    outline: 1px solid #25575B;
+    outline: 0.2rem  solid #004D57;
 }
 
 a:active {
@@ -98,37 +97,32 @@ a:active {
 .nav-bar {
     display: flex;
     justify-content: center;
-    background-color: #004D57;
+    background-color: #F0F0F0;
     position: fixed;
     bottom: 0;
     margin-bottom: 1rem;
+    border: 0.2rem solid #004D57;
     border-radius: 1rem;
     z-index: 99;
+    width: 19rem;
 }
 
 .nav-bar-links {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
 }
 
-.nav-bar-links a {
-    padding: 0 1rem;
-}
-
-.nav-bar-links :not(:last-child) {
-    border-right: 2px solid #F0F0F0;
-}
-
-.scroll-down,
-.scroll-down:visited {
-    color: #004D57;
+.icons {
+    width: 32px;
 }
 
 /* Main */
 .projects-section {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     gap: 1rem;
     padding-bottom: 1rem;
 }
@@ -147,7 +141,16 @@ a:active {
 
 .project-tile,
 .project-tile img {
-    border-radius: 1rem;
+    /* height: 19rem; */
+    /* border-radius: 1rem; */
+}
+
+.project-tile img {
+    height: 19rem;
+}
+
+.project-tile image {
+    height: 19rem;
 }
 
 .project-description a,
