@@ -159,7 +159,7 @@ a:active {
     align-items: center;
     gap: 1rem;
     width: 18rem;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .project-image {
@@ -181,6 +181,15 @@ a:active {
     flex-direction: column;
     justify-content: space-around;
 }
+
+.stack article ul li{
+    list-style: circle;
+}
+
+.stack article ul{
+    padding: 1rem;
+}
+
 
 /* Footer & Links */
 .site-footer {
