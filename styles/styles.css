@@ -1,3 +1,19 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN NORMALIZE.CSS)
+# Base
+	- Typography
+	- Elements
+	- Links
+# Components
+# Media Query
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
 /* Color Pallete
     -#F0F0F0
     -#004D57
@@ -17,7 +33,9 @@ body {
 }
 
 /* Elements */
-ul, li, a {
+ul, 
+li, 
+a {
     padding: 0;
     text-decoration: none;
     list-style: none;
@@ -32,10 +50,12 @@ h1 {
 h2 {
     text-align: center;
     font-size: 2rem;
+    width: auto;
 }
 
 header,
-main {
+main,
+footer {
     margin: 0 auto;
     max-width: 90%;
 }
@@ -58,11 +78,14 @@ a:focus {
 
 a:focus,
 a:active {
-    outline: 0.2rem  solid #004D57;
+    outline: 0.2rem solid #004D57;
 }
 
-/* Reusable Classes */
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
 
+/* Reusable Classes */
 .rounded-border {
     border: 0.1rem solid #004D57;
     border-radius: 1rem;
@@ -73,7 +96,6 @@ a:active {
 }
 
 .media-links {
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -191,22 +213,20 @@ a:active {
 }
 
 
-/* Footer & Links */
+/* Footer */
 .site-footer {
-    margin: 0 auto;
-    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 0.2rem solid #004D57;
 }
 
-#links {
-    width: 100%;
-    display: flex;
-    padding-top: 1rem;
-}
+/*--------------------------------------------------------------
+# Media Query
+--------------------------------------------------------------*/
 
+/* Desktop view */
 @media (min-width: 50em) {
     
     #left {
@@ -231,12 +251,13 @@ a:active {
         width: 30rem;
     }
 
-    .project-description {
-        align-self: self-start;
-        padding: 1rem;
-    }
-
     .stack {
         flex-direction: row;
+    }
+
+    .site-footer {
+        margin-top: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
