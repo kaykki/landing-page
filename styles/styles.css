@@ -24,6 +24,10 @@
 /*--------------------------------------------------------------
 # Base
 --------------------------------------------------------------*/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Raleway", Arial, sans-serif;
     font-weight: 400;
@@ -90,7 +94,7 @@ a:focus {
 
 a:focus,
 a:active {
-    outline: 0.2rem solid #004D57;
+    outline: 0.1rem solid #004D57;
 }
 
 /*--------------------------------------------------------------
