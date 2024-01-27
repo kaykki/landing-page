@@ -108,7 +108,7 @@ a:active {
 }
 
 .icons {
-    width: 32px;
+    width: 2rem;
 }
 
 .media-links {
@@ -135,19 +135,16 @@ a:active {
     justify-content: center;
     align-items: center;
     height: 90%;
-    width: 100%;
-    border-top: none;
 }
 
 .site-title img {
-    width: 7rem;
+    width: 6rem;
 }
 
 .title-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
 }
 
 .nav-bar {
@@ -201,12 +198,13 @@ a:active {
 }
 
 .project-image {
-    width: 60%;
+    display: flex;
     justify-content: center;
+    padding: 2rem;
 }
 
 .project-image img{
-    height: 19rem;
+    width: 10rem;
 }
 
 .project-tile .icons {
@@ -214,20 +212,19 @@ a:active {
 }
 
 /* Stack */
-.stack {
+.tech-stack {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.stack article ul li{
+.stack-list ul li{
     list-style: circle;
 }
 
-.stack article ul{
+.stack-list ul{
     padding: 0 0 1rem 1rem;
 }
-
 
 /* Footer */
 .site-footer {
@@ -281,7 +278,7 @@ footer h2 {
         width: 30rem;
     }
 
-    .stack {
+    .tech-stack {
         flex-direction: row;
     }
 
