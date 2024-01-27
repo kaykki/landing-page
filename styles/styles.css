@@ -12,24 +12,20 @@
     - Main
     - Footer
 # Media Query
+    - Tablet View
     - Desktop View
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-# Base
 --------------------------------------------------------------*/
 
 /* Color Pallete
     -#F0F0F0
     -#004D57
 */
-html, body {
-    scroll-behavior: smooth !important; 
-}
 
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
 body {
     font-family: "Raleway", Arial, sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     margin: 0 auto;
@@ -186,7 +182,7 @@ a:active {
 .project-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     gap: 2rem;
 }
 
