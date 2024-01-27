@@ -7,7 +7,12 @@
 	- Elements
 	- Links
 # Components
+    - Reusables Classes
+    - Header
+    - Main
+    - Footer
 # Media Query
+    - Desktop View
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -18,6 +23,9 @@
     -#F0F0F0
     -#004D57
 */
+html, body {
+    scroll-behavior: smooth !important; 
+}
 
 body {
     font-family: "Raleway", Arial, sans-serif;
@@ -32,7 +40,6 @@ body {
     color: #004D57;
 }
 
-/* Elements */
 ul, 
 li, 
 a {
@@ -51,6 +58,15 @@ h2 {
     text-align: center;
     font-size: 2rem;
     width: auto;
+}
+
+h3 {
+    border-bottom: 0.1rem solid #004D57;
+    width: fit-content;
+}
+
+p {
+    font-size: 1rem;
 }
 
 header,
@@ -170,7 +186,7 @@ a:active {
 .project-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 2rem;
 }
 
@@ -179,7 +195,6 @@ a:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
     width: 18rem;
     padding: 1rem;
 }
@@ -209,37 +224,46 @@ a:active {
 }
 
 .stack article ul{
-    padding: 1rem;
+    padding: 0 0 1rem 1rem;
 }
 
 
 /* Footer */
 .site-footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
     border-top: 0.2rem solid #004D57;
+}
+
+footer h2 {
+    font-size: 1.5rem;
 }
 
 /*--------------------------------------------------------------
 # Media Query
 --------------------------------------------------------------*/
 
-/* Desktop view */
+/* Tablet view */
 @media (min-width: 50em) {
     
+    p {
+        font-size: 1.1rem;
+    }
+
     #left {
         position: fixed;
         left: 0;
-        width: 40%;
+        width: 45%;
         box-shadow: 0.5rem 0 1rem -0.5rem #004D57;
     }
 
     #right {
         position: absolute;
         right: 0;
-        width: 60%;
+        width: 55%;
     }
 
     .nav-bar {
@@ -256,8 +280,26 @@ a:active {
     }
 
     .site-footer {
-        margin-top: 2rem;
-        flex-direction: row;
         justify-content: space-between;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 75em) {
+    
+    p {
+        font-size: 1.2rem;
+    }
+
+    #left {
+        width: 30%;
+    }
+
+    #right {
+        width: 70%;
+    }
+
+    .project-tile {
+        width: 30rem;
     }
 }
